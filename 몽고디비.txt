@@ -1,0 +1,11 @@
+1. c:\data 폴더 안에 db를 만들고 그 자리에가서 mongd를 실행
+2. 콘솔을 하나 더 만들어서 몽고 접속 후 admin 계정 접근 db.createUser({user : 'root', pwd: '1234', roles:['root']})
+해서 mongod의 콘솔을 exit한다음 mongod --auth로 접속
+3. mongo --auth는 가만히 냅두고, mongo를 입력한 콘솔에서 exit를 한다음 mongo admin -u root -p 1234 엔터
+4. 몽고패스에 가서 아이디 비밀번호 root 1234 입력후 몽고패스 최소화
+5. c:에 learn-mongoose 폴더를 만들고 VS코드로 터미널 실행 시킨다음 npm init (auter는 ZeroCho, license는 MIT), npm i express morgan nunjucks mongoose, npm i -D nodemon 입력후
+6. 교제 소스코드를 그대로 덮어쓰기
+7. 그다음 root:1234 변경 후 npm start
+
+
+useCreateIndex: true이거 제거해야함
