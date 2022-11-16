@@ -1,9 +1,0 @@
-승인된 리디렉션 URI
-http://localhost:8040/login/oauth2/code/google
-
-
-클라이언트 ID
-124208153199-kp259gecehjphnnm47donv29civmmp5e.apps.googleusercontent.com
-
-클라이언트 보안 비밀번호
-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
